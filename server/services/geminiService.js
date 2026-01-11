@@ -8,7 +8,7 @@ const generateResumeData = async (userRawData, jobDescription) => {
   try {
     // 1. Configure Model with JSON Mode (Critical for stability)
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash", // Low latency, low cost
+      model: "gemini-2.5-flash", // Low latency, low cost
       generationConfig: {
         responseMimeType: "application/json",
         temperature: 0.7 // Balance between creativity and strict formatting
