@@ -163,4 +163,4 @@ Open a Pull Request.
 ---
 
 ## 📄 License
-This project is licensed under the [MIT License](MIT LICENSE).
+This project is licensed under the (MIT License)[MIT LICENSE].
